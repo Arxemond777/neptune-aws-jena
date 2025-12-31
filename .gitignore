@@ -1,0 +1,74 @@
+# ===== OS =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ===== IDEs =====
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code (на всякий случай)
+.vscode/
+
+# ===== Java / Build =====
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Spring =====
+# Local configs
+application-local.yml
+application-local.yaml
+application-local.properties
+
+# Secrets / env
+.env
+.env.*
+
+# ===== Runtime =====
+*.pid
+*.hprof
+hs_err_pid*
+
+# ===== Packaging =====
+*.jar
+*.war
+*.ear
+
+# ===== Test / Temp =====
+tmp/
+temp/
+*.tmp
+
+# ===== Docker =====
+# local volumes / overrides
+docker-compose.override.yml
+
+# ===== Misc =====
+*.swp
+*.swo
